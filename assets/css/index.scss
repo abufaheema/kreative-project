@@ -76,3 +76,42 @@ a:hover, a:active{
     z-index: -1;
 }
 
+/*card section*/
+
+.card-effect{
+    box-shadow: var(--box-shadow);
+    background-color: white;
+    padding: 25px;
+    transition: all 0.5s ease;
+}
+
+.card-effect:hover{
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+.service{
+   
+    .icon{
+        width: 54px;
+        height: 54px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--primary);
+        color: white;
+        font-size: 24px;
+        border-radius: 100px;
+    }
+}
+
+
+/*FEATURE SECTION*/
+
+.col-img{
+    background-image: url(/assets/images/slider-1-1.jpg);
+    background-position: center;
+    background-size: cover;
+    min-width: 500px;
+    min-height: 500px;
+}
